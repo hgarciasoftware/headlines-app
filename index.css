@@ -61,11 +61,11 @@ a {
   display: block;
   margin: 1.5rem;
   padding: 0.75rem;
-  overflow: hidden;
   border-radius: 1.5rem;
 }
 
 .article-source {
+  display: block;
   text-overflow: ellipsis;
 }
 
@@ -99,4 +99,9 @@ a {
 
 .bold {
   font-weight: bold;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

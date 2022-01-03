@@ -18,8 +18,8 @@ document.querySelector('.js-refresh').addEventListener('click', () => {
         const date = new Date(article.publishedAt).toLocaleString([], {dateStyle: 'short', timeStyle: 'short'});
 
         buf += `<a class="article" href="${article.url}" target="_blank">` +
-          `<cite class="article-source">${article.source.name}${author}</cite>` +
-          `<h2 class="article-title">${title}</h2>` +
+          `<cite class="article-source text-truncate">${article.source.name}${author}</cite>` +
+          `<h2 class="article-title text-truncate">${title}</h2>` +
           `<time datetime="${article.publishedAt}">${date}</time>` +
         '</a>';
       }
