@@ -75,7 +75,7 @@ a {
   line-height: 1.3em;
 }
 
-@media (max-width: 1536px) {
+@media (max-width: 96rem) {
   .article-title {
     font-size: 1.5rem;
   }
