@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>headlines / curated</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./normalize.css" rel="stylesheet">
+    <link href="./index.css" rel="stylesheet">
+  </head>
+  <body class="old-paper-theme">
+    <div class="container">
+      <header>
+        <nav class="navigation">
+          <a href="./">home</a>
+          <a href="./curated.html">curated</a>
+          <a href="./feedback.html">feedback</a>
+        </nav>
+      </header>
+      <div class="js-results"></div>
+    </div>
+    <script>
+      const articles = [
+        {
+          author: 'MATTHEW LEE',
+          title: 'The rollout: 1. The district nurse - Delayed Gratification',
+          publishedAt: '2021-12-30',
+          url: 'https://www.slow-journalism.com/delayed-gratification-magazine/the-rollout-1-the-district-nurse/',
+          source: {
+            name: 'Delayed Gratification'
+          }
+        },
+        {
+          author: 'MATTHEW LEE',
+          title: 'Moment that mattered: The murder of Sarah Everard - Delayed Gratification',
+          publishedAt: '2021-12-29',
+          url: 'https://www.slow-journalism.com/from-the-archive/moment-that-mattered-sarah-everard',
+          source: {
+            name: 'Delayed Gratification'
+          }
+        },
+        {
+          author: 'MATTHEW LEE',
+          title: 'Moment that mattered: India sets a record for single-day Covid cases - Delayed Gratification',
+          publishedAt: '2021-12-29',
+          url: 'https://www.slow-journalism.com/from-the-archive/moment-that-mattered-india-covid',
+          source: {
+            name: 'Delayed Gratification'
+          }
+        },
+        {
+          author: 'MATTHEW LEE',
+          title: 'Moment that mattered: Belarus forces the landing of a Ryanair flight to detain a journalist - Delayed Gratification',
+          publishedAt: '2021-12-29',
+          url: 'https://www.slow-journalism.com/from-the-archive/moment-that-mattered-belarus-ryanair',
+          source: {
+            name: 'Delayed Gratification'
+          }
+        },
+        {
+          author: 'JAMES MONTAGUE',
+          title: 'The storming of the Capitol - Delayed Gratification',
+          publishedAt: '2021-12-29',
+          url: 'https://www.slow-journalism.com/delayed-gratification-magazine/capitol-storming-graphic-novel',
+          source: {
+            name: 'Delayed Gratification'
+          }
+        },
+        {
+          author: 'MATTHEW LEE',
+          title: 'The rollout: 2. The cathedral converters - Delayed Gratification',
+          publishedAt: '2021-12-29',
+          url: 'https://www.slow-journalism.com/delayed-gratification-magazine/the-rollout-2-the-cathedral-converters',
+          source: {
+            name: 'Delayed Gratification'
+          }
+        },
+        {
+          author: 'MATTHEW LEE',
+          title: 'The rollout: 3. The researcher - Delayed Gratification',
+          publishedAt: '2021-12-29',
+          url: 'https://www.slow-journalism.com/delayed-gratification-magazine/the-rollout-3-the-researcher',
+          source: {
+            name: 'Delayed Gratification'
+          }
+        },
+        {
+          author: 'MATTHEW LEE',
+          title: 'The rollout: 4. The volunteers - Delayed Gratification',
+          publishedAt: '2021-12-29',
+          url: 'https://www.slow-journalism.com/delayed-gratification-magazine/the-rollout-4-the-volunteers',
+          source: {
+            name: 'Delayed Gratification'
+          }
+        },
+        {
+          author: 'BOŠTJAN VIDEMŠEK AND MAJA PRIJATELJ VIDEMŠEK',
+          title: 'Before you go - Delayed Gratification',
+          publishedAt: '2021-12-21',
+          url: 'https://www.slow-journalism.com/from-the-archive/saving-the-northern-white-rhino',
+          source: {
+            name: 'Delayed Gratification'
+          }
+        },
+        {
+          author: 'CHRIS BOURN',
+          title: 'To catch a falling star - Delayed Gratification',
+          publishedAt: '2021-11-12',
+          url: 'https://www.slow-journalism.com/delayed-gratification-magazine/to-catch-a-falling-star',
+          source: {
+            name: 'Delayed Gratification'
+          }
+        }
+      ];
+
+      articles.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+
+      const app = document.querySelector('.js-results');
+      let buf = '';
+
+      for (const article of articles) {
+        const author = !!article.author ? ` / ${article.author}` : '';
+        const title = article.title.match(/(^.+) - (.+$)/)[1];
+        const date = new Date(article.publishedAt).toLocaleString([], {dateStyle: 'short', timeStyle: 'short'});
+
+        buf += `<a class="article" href="${article.url}" target="_blank">` +
+          `<cite class="article-source">${article.source.name}${author}</cite>` +
+          `<h2 class="article-title">${title}</h2>` +
+          `<time datetime="${article.publishedAt}">${date}</time>` +
+        '</a>';
+      }
+
+      app.innerHTML = buf;
+    </script>
+  </body>
+</html>

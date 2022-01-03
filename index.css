@@ -1,0 +1,81 @@
+.old-paper-theme {
+  background-color: #e0c9a6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  padding: 0.75rem;
+  color: black;
+  text-decoration: none;
+  border: .1875rem solid black;
+}
+
+.container {
+  max-width: max(60rem, 65vw);
+  margin: 1rem auto 0;
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  margin-left: 1.5rem;
+  column-gap: 0.5rem;
+}
+
+.parameter-select-group {
+  display: grid;
+  grid: 1fr 1fr / 1fr auto 1fr;
+  max-width: inherit;
+  padding: 0 0.75rem 0.75rem;
+  width: inherit;
+  border-radius: 0.5rem 0.5rem 0 0;
+  border: 0.1875rem solid black;
+  border-bottom: 0;
+}
+
+.parameter-select-group button,
+.parameter-select-group select {
+  padding: 0.375rem;
+}
+
+.article {
+  display: block;
+  margin: 1.5rem;
+  padding: 0.75rem;
+  border-radius: 1.5rem;
+}
+
+.article-title {
+  margin: 0;
+  font-size: min(1.5625vw, 3.25rem);
+  line-height: 1.3em;
+}
+
+@media (max-width: 1536px) {
+  .article-title {
+    font-size: 1.5rem;
+  }
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+}
+
+.active {
+  opacity: 1;
+  transition: opacity .3s ease-out;
+}
+
+.hide {
+  opacity: 0;
+  transition: opacity .3s ease-out;
+}
