@@ -84,7 +84,7 @@
           <option value="sports">Sports</option>
           <option value="technology">Technology</option>
         </select>
-        <button class="js-refresh" style="grid-area: 2 / 2 / auto / 3">Refresh</button>
+        <button class="js-refresh-app" style="grid-area: 2 / 2 / auto / 3">Refresh</button>
       </footer>
       <main>
         <section class="page-description bold">
@@ -93,9 +93,11 @@
           <p>To fetch new headlines, choose a country and a category and then press the refresh button below.</p>
           <p>The footer automatically disappears when scrolling down and reappears when scrolling up.</p>
         </section>
-        <div class="js-results"></div>
+        <section class="js-app"></section>
       </main>
     </div>
+    <script src="./render-article-data.js"></script>
     <script src="./index.js"></script>
+    <script src="./scroll-up-footer.js"></script>
   </body>
 </html>
