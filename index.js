@@ -2,7 +2,7 @@ document.querySelector('.js-refresh').addEventListener('click', () => {
   const country = document.querySelector('#country').value;
   const category = document.querySelector('#category').value;
 
-  fetch(`http://newsapi-proxy.herokuapp.com?country=${country}&category=${category}`)
+  fetch(`https://newsapi-proxy.herokuapp.com?country=${country}&category=${category}`)
     .then(res => res.json())
     .then(data => {
       const articles = data.articles.slice();
