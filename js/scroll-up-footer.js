@@ -12,10 +12,10 @@ window.addEventListener('scroll', () => {
     scrollVector = delta;
   }
 
-  if (scrollVector >= 80 && !selectGroup.classList.contains('hide')) {
+  if (scrollVector >= 80 && !footer.classList.contains('hide')) {
     footer.classList.add('hide');
     footer.classList.remove('active');
-  } else if (scrollVector <= -80 && !selectGroup.classList.contains('active')) {
+  } else if (scrollVector <= -80 && !footer.classList.contains('active')) {
     footer.classList.remove('hide');
     footer.classList.add('active');
   }
