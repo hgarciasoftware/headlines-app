@@ -1,24 +1,57 @@
-function renderArticleData(articles) {
-  const clonedArticles = articles.slice();
-
-  clonedArticles.sort((a, b) => new Date(b. published_at) - new Date(a.published_at));
-
+function renderArticleData(results) {
   const app = document.querySelector('.js-app');
-  let articleData = '';
 
-  for (const article of clonedArticles) {
-    const authors = article.authors.map(author => author.name).join(', ');
-    const title = (article.title + ' - ' + article.news_site).match(/(^.+) - (.+$)/)[1];
-    const date = new Date(article.published_at).toLocaleString([], {dateStyle: 'short', timeStyle: 'short'});
+  for (const result of results) {
+    const article = document.createElement('article');
+    const anchor = createAnchor(result);   
 
-    articleData += '<article>' +
-      `<a class="article-data" href="${article.url}" target="_blank">` +
-        `<cite class="article-source text-truncate">${article.news_site} / ${authors}</cite>` +
-        `<h2 class="article-title text-truncate">${title}</h2>` +
-        `<time datetime="${article.published_at}">${date}</time>` +
-      '</a>' +
-    '</article>';
+    article.append(anchor);
+    app.append(article);
   }
+}
 
-  app.innerHTML = articleData;
+function createAnchor(result) {
+  const anchor = document.createElement('a');
+
+  anchor.classList.add('article-data');
+  anchor.target = '_blank';
+  anchor.href = result.url;
+
+  const cite = createCite(result);
+  const h2 = createH2(result);
+  const time = createTime(result);  
+
+  anchor.append(cite, h2, time);
+
+  return anchor;
+}
+
+function createCite(result) {
+  const cite = document.createElement('cite');
+  const author = result.authors.map(author => author.name).join(', ');
+
+  cite.classList.add('article-source', 'text-truncate');
+  cite.textContent = result.news_site + ' / ' + author;
+
+  return cite;
+}
+
+function createH2(result) {
+  const h2 = document.createElement('h2');
+  const title = (result.title + ' - ' + result.news_site).match(/(^.+) - (.+$)/)[1];
+
+  h2.classList.add('article-title', 'text-truncate');
+  h2.textContent = title;
+
+  return h2;
+}
+
+function createTime(result) {
+  const time = document.createElement('time');
+  const date = new Date(result.published_at).toLocaleString([], {dateStyle: 'short', timeStyle: 'short'});
+
+  time.dateTime = result.published_at;
+  time.textContent = date;
+
+  return time;
 }
