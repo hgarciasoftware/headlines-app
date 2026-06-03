@@ -4,7 +4,7 @@ document.querySelector('.js-refresh-app').addEventListener('click', () => {
 
   fetch(`https://api.spaceflightnewsapi.net/v4/articles/`)
     .then(res => res.json())
-    .then(data => renderArticleData(data.articles));
+    .then(data => renderArticleData(data.results));
 });
 
 document.querySelector('.js-refresh-app').click();
