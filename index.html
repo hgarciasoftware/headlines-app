@@ -18,7 +18,7 @@
         </nav>
       </header>
       <footer class="old-paper-theme parameter-select-group fixed-bottom">
-        <label for="country" style="grid-area: 1 / 1 / 2 / 2; align-self: center">Country</label>
+        <!-- <label for="country" style="grid-area: 1 / 1 / 2 / 2; align-self: center">Country</label>
         <select id="country" style="grid-area: 2 / 1 / auto / 2">
           <option value="ar">Argentina</option>
           <option value="au">Australia</option>
@@ -74,24 +74,25 @@
           <option value="gb">United Kingdom</option>
           <option value="us" selected>United States</option>
           <option value="ve">Venezuela</option>
+        </select> -->
+        <label for="endpoint" style="grid-area: 1 / 1 / 2 / 2; align-self: center">Endpoint</label>
+        <select id="endpoint" style="grid-area: 2 / 1">
+          <option value="articles" selected>Articles</option>
+          <option value="blogs">Blogs</option>
+          <option value="reports">Reports</option>
         </select>
-        <label for="category" style="grid-area: 1 / 3 / 2 / auto; align-self: center">Category</label>
-        <select id="category" style="grid-area: 2 / 3 / auto / auto">
-          <option value="business">Business</option>
-          <option value="entertainment">Entertainment</option>
-          <option value="general" selected>General</option>
-          <option value="health">Health</option>
-          <option value="science">Science</option>
-          <option value="sports">Sports</option>
-          <option value="technology">Technology</option>
-        </select>
-        <button class="js-refresh-app" style="grid-area: 2 / 2 / auto / 3">Refresh</button>
+        <button class="js-refresh-app" style="grid-area: 2 / 2">Refresh</button>
       </footer>
       <main>
         <section class="page-description bold">
-          <p>The home page provides a stream of headlines from over 50 countries and 7 categories.</p>
-          <p>Periodically, on first load, the headlines may take more than a second to appear.</p>
-          <p>To fetch new headlines, choose a country and a category and then press the refresh button below.</p>
+          <p>The home page provides a stream of headlines from numerous space-related:</p>
+          <ul style="display: flex; flex-direction: column; align-items: flex-end;">
+            <li>news articles,</li>
+            <li>blog posts,</li>
+            <li>or reports from space stations and other missions.</li>
+          </ul>
+          <!-- <p>Periodically, on first load, the headlines may take more than a second to appear.</p> -->
+          <p>To fetch new headlines, choose an endpoint and then press the refresh button below.</p>
           <p>The footer automatically disappears when scrolling down and reappears when scrolling up.</p>
         </section>
         <section class="js-app"></section>
