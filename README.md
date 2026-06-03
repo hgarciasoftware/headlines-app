@@ -2,7 +2,7 @@
 
 https://hgarciasoftware.github.io/headlines-app/
 
-headlines-app provides a stream of headlines from over 50 countries and 7 categories for users seeking news from a variety of sources. headlines-app is [powered by news api](https://newsapi.org/).
+headlines-app provides a stream of headlines from numerous space-related news articles, blog posts, or reports from space stations and other missions. headlines-app is [powered by the Spaceflight News API](https://www.spaceflightnewsapi.net/).
 
 ### while making this app i learned:
 
