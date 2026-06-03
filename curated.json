@@ -1,272 +1,418 @@
 [
   {
-    "author": "MATTHEW LEE",
+    "authors": [
+      {
+        "name": "MATTHEW LEE",
+        "socials": null
+      }
+    ],
     "title": "The rollout: 1. The district nurse - Delayed Gratification",
-    "publishedAt": "2021-12-30",
+    "published_at": "2021-12-30",
     "url": "https://www.slow-journalism.com/delayed-gratification-magazine/the-rollout-1-the-district-nurse/",
-    "source": {
-      "name": "Delayed Gratification"
-    }
+    "news_site": "Delayed Gratification"
   },
   {
-    "author": "MATTHEW LEE",
+    "authors": [
+      {
+        "name": "MATTHEW LEE",
+        "socials": null
+      }
+    ],
     "title": "Moment that mattered: The murder of Sarah Everard - Delayed Gratification",
-    "publishedAt": "2021-12-29",
+    "published_at": "2021-12-29",
     "url": "https://www.slow-journalism.com/from-the-archive/moment-that-mattered-sarah-everard",
-    "source": {
-      "name": "Delayed Gratification"
-    }
+    "news_site": "Delayed Gratification"
   },
   {
-    "author": "MATTHEW LEE",
+    "authors": [
+      {
+        "name": "MATTHEW LEE",
+        "socials": null
+      }
+    ],
     "title": "Moment that mattered: India sets a record for single-day Covid cases - Delayed Gratification",
-    "publishedAt": "2021-12-29",
+    "published_at": "2021-12-29",
     "url": "https://www.slow-journalism.com/from-the-archive/moment-that-mattered-india-covid",
-    "source": {
-      "name": "Delayed Gratification"
-    }
+    "news_site": "Delayed Gratification"
   },
   {
-    "author": "MATTHEW LEE",
+    "authors": [
+      {
+        "name": "MATTHEW LEE",
+        "socials": null
+      }
+    ],
     "title": "Moment that mattered: Belarus forces the landing of a Ryanair flight to detain a journalist - Delayed Gratification",
-    "publishedAt": "2021-12-29",
+    "published_at": "2021-12-29",
     "url": "https://www.slow-journalism.com/from-the-archive/moment-that-mattered-belarus-ryanair",
-    "source": {
-      "name": "Delayed Gratification"
-    }
+    "news_site": "Delayed Gratification"
   },
   {
-    "author": "JAMES MONTAGUE",
+    "authors": [
+      {
+        "name": "JAMES MONTAGUE",
+        "socials": null
+      }
+    ],
     "title": "The storming of the Capitol - Delayed Gratification",
-    "publishedAt": "2021-12-29",
+    "published_at": "2021-12-29",
     "url": "https://www.slow-journalism.com/delayed-gratification-magazine/capitol-storming-graphic-novel",
-    "source": {
-      "name": "Delayed Gratification"
-    }
+    "news_site": "Delayed Gratification"
   },
   {
-    "author": "MATTHEW LEE",
+    "authors": [
+      {
+        "name": "MATTHEW LEE",
+        "socials": null
+      }
+    ],
     "title": "The rollout: 2. The cathedral converters - Delayed Gratification",
-    "publishedAt": "2021-12-29",
+    "published_at": "2021-12-29",
     "url": "https://www.slow-journalism.com/delayed-gratification-magazine/the-rollout-2-the-cathedral-converters",
-    "source": {
-      "name": "Delayed Gratification"
-    }
+    "news_site": "Delayed Gratification"
   },
   {
-    "author": "MATTHEW LEE",
+    "authors": [
+      {
+        "name": "MATTHEW LEE",
+        "socials": null
+      }
+    ],
     "title": "The rollout: 3. The researcher - Delayed Gratification",
-    "publishedAt": "2021-12-29",
+    "published_at": "2021-12-29",
     "url": "https://www.slow-journalism.com/delayed-gratification-magazine/the-rollout-3-the-researcher",
-    "source": {
-      "name": "Delayed Gratification"
-    }
+    "news_site": "Delayed Gratification"
   },
   {
-    "author": "MATTHEW LEE",
+    "authors": [
+      {
+        "name": "MATTHEW LEE",
+        "socials": null
+      }
+    ],
     "title": "The rollout: 4. The volunteers - Delayed Gratification",
-    "publishedAt": "2021-12-29",
+    "published_at": "2021-12-29",
     "url": "https://www.slow-journalism.com/delayed-gratification-magazine/the-rollout-4-the-volunteers",
-    "source": {
-      "name": "Delayed Gratification"
-    }
+    "news_site": "Delayed Gratification"
   },
   {
-    "author": "BOŠTJAN VIDEMŠEK AND MAJA PRIJATELJ VIDEMŠEK",
+    "authors": [
+      {
+        "name": "BOŠTJAN VIDEMŠEK",
+        "socials": null
+      },
+      {
+        "name": "MAJA PRIJATELJ VIDEMŠEK",
+        "socials": null
+      }
+    ],
     "title": "Before you go - Delayed Gratification",
-    "publishedAt": "2021-12-21",
+    "published_at": "2021-12-21",
     "url": "https://www.slow-journalism.com/from-the-archive/saving-the-northern-white-rhino",
-    "source": {
-      "name": "Delayed Gratification"
-    }
+    "news_site": "Delayed Gratification"
   },
   {
-    "author": "CHRIS BOURN",
+    "authors": [
+      {
+        "name": "CHRIS BOURN",
+        "socials": null
+      }
+    ],
     "title": "To catch a falling star - Delayed Gratification",
-    "publishedAt": "2021-11-12",
+    "published_at": "2021-11-12",
     "url": "https://www.slow-journalism.com/delayed-gratification-magazine/to-catch-a-falling-star",
-    "source": {
-      "name": "Delayed Gratification"
-    }
+    "news_site": "Delayed Gratification"
   },
   {
-    "author": "GREG DAVID",
+    "authors": [
+      {
+        "name": "GREG DAVID",
+        "socials": null
+      }
+    ],
     "title": "What Will Eric Adams Do for Beleaguered Businesses? Owners Air Hopes While Awaiting Answers - THE CITY",
-    "publishedAt": "2022-01-03T09:30:00-05:00",
+    "published_at": "2022-01-03T09:30:00-05:00",
     "url": "https://www.thecity.nyc/economy/2022/1/3/22864456/eric-adams-businesses-owners-hopes",
-    "source": {
-      "name": "THE CITY"
-    }
+    "news_site": "THE CITY"
   },
   {
-    "author": "CLAUDIA IRIZARRY APONTE",
+    "authors": [
+      {
+        "name": "CLAUDIA IRIZARRY APONTE",
+        "socials": null
+      }
+    ],
     "title": "AOC Campaign Aide Announces Primary Challenge to Michael Benedetto for Bronx Assembly Seat - THE CITY",
-    "publishedAt": "2022-01-03T04:00:00-05:00",
+    "published_at": "2022-01-03T04:00:00-05:00",
     "url": "https://www.thecity.nyc/2022/1/3/22858914/aoc-campaign-aide-announces-primary-challenge-to-michael-benedetto-for-bronx-assembly-seat",
-    "source": {
-      "name": "THE CITY"
-    }
+    "news_site": "THE CITY"
   },
   {
-    "author": "SUHAIL BHAT",
+    "authors": [
+      {
+        "name": "SUHAIL BHAT",
+        "socials": null
+      }
+    ],
     "title": "Health: Trends to Watch for the Future of NYC - THE CITY",
-    "publishedAt": "2022-01-02T21:33:11-05:00",
+    "published_at": "2022-01-02T21:33:11-05:00",
     "url": "https://www.thecity.nyc/2022/1/2/22860399/health-trends-to-watch-for-the-future-of-nyc",
-    "source": {
-      "name": "THE CITY"
-    }
+    "news_site": "THE CITY"
   },
   {
-    "author": "CLAUDIA IRIZARRY APONTE, KATIE HONAN, CLIFFORD MICHEL, GABRIEL SANDOVAL",
+    "authors": [
+      {
+        "name": "CLAUDIA IRIZARRY APONTE",
+        "socials": null
+      },
+      {
+        "name": "KATIE HONAN",
+        "socials": null
+      },
+      {
+        "name": "CLIFFORD MICHEL",
+        "socials": null
+      },
+      {
+        "name": "GABRIEL SANDOVAL",
+        "socials": null
+      }
+    ],
     "title": "Meet Your City Council: Learn More About NYC’s New Lawmakers - THE CITY",
-    "publishedAt": "2022-01-02T21:23:16-05:00",
+    "published_at": "2022-01-02T21:23:16-05:00",
     "url": "https://www.thecity.nyc/2022/1/2/22858693/meet-your-new-nyc-city-council",
-    "source": {
-      "name": "THE CITY"
-    }
+    "news_site": "THE CITY"
   },
   {
-    "author": "BEN FRACTENBERG",
+    "authors": [
+      {
+        "name": "BEN FRACTENBERG",
+        "socials": null
+      }
+    ],
     "title": "NYC’s 2021 Mayoral Election Year in Photos  - THE CITY",
-    "publishedAt": "2021-12-31T13:35:45-05:00",
+    "published_at": "2021-12-31T13:35:45-05:00",
     "url": "https://www.thecity.nyc/2021/12/31/22816196/nycs-2021-mayoral-election-year-in-photos",
-    "source": {
-      "name": "THE CITY"
-    }
+    "news_site": "THE CITY"
   },
   {
-    "author": "GREG B. SMITH",
+    "authors": [
+      {
+        "name": "GREG B. SMITH",
+        "socials": null
+      }
+    ],
     "title": "COVID Cases Fill More City Hospital Beds, Threatening Halt on Elective Surgeries - THE CITY",
-    "publishedAt": "2021-12-29T21:35:26-05:00",
+    "published_at": "2021-12-29T21:35:26-05:00",
     "url": "https://www.thecity.nyc/health/2021/12/29/22859320/covid-cases-fill-more-city-hospital-beds",
-    "source": {
-      "name": "THE CITY"
-    }
+    "news_site": "THE CITY"
   },
   {
-    "author": "RACHEL HOLLIDAY SMITH",
+    "authors": [
+      {
+        "name": "RACHEL HOLLIDAY SMITH",
+        "socials": null
+      }
+    ],
     "title": "Skylines and Streetscapes: How New York City Physically Changed in de Blasio Era - THE CITY",
-    "publishedAt": "2021-12-29T13:57:48-05:00",
+    "published_at": "2021-12-29T13:57:48-05:00",
     "url": "https://www.thecity.nyc/2021/12/29/22855542/skylines-and-streetscapes-how-new-york-city-physically-changed-in-de-blasio-era",
-    "source": {
-      "name": "THE CITY"
-    }
+    "news_site": "THE CITY"
   },
   {
-    "author": "BEN FRACTENBERG",
+    "authors": [
+      {
+        "name": "BEN FRACTENBERG",
+        "socials": null
+      }
+    ],
     "title": "PHOTOS: Surviving COVID’s Second Year in NYC - THE CITY",
-    "publishedAt": "2021-12-27T09:18:39-05:00",
+    "published_at": "2021-12-27T09:18:39-05:00",
     "url": "https://www.thecity.nyc/2021/12/27/22822216/photos-surviving-covids-2021-in-nyc",
-    "source": {
-      "name": "THE CITY"
-    }
+    "news_site": "THE CITY"
   },
   {
-    "author": "KATIE HONAN, SAMANTHA MALDONADO",
+    "authors": [
+      {
+        "name": "KATIE HONAN",
+        "socials": null
+      },
+      {
+        "name": "SAMANTHA MALDONADO",
+        "socials": null
+      }
+    ],
     "title": "City Employees Call for Remote-Work Option as Omicron Spreads - THE CITY",
-    "publishedAt": "2021-12-23T21:33:54-05:00",
+    "published_at": "2021-12-23T21:33:54-05:00",
     "url": "https://www.thecity.nyc/health/2021/12/23/22852537/city-employees-call-for-remote-work-option-as-omicron-spreads",
-    "source": {
-      "name": "THE CITY"
-    }
+    "news_site": "THE CITY"
   },
   {
-    "author": "GREG B. SMITH",
+    "authors": [
+      {
+        "name": "GREG B. SMITH",
+        "socials": null
+      }
+    ],
     "title": "NYCHA Reaches Deal to Monitor Mold Mess at Privately Run Buildings - THE CITY",
-    "publishedAt": "2021-12-23T17:44:17-05:00",
+    "published_at": "2021-12-23T17:44:17-05:00",
     "url": "https://www.thecity.nyc/housing/2021/12/23/22852331/tenants-reach-nycha-deal-mold-monitor-rad",
-    "source": {
-      "name": "THE CITY"
-    }
+    "news_site": "THE CITY"
   },
   {
-    "author": "ELIZABETH WEIL",
+    "authors": [
+      {
+        "name": "ELIZABETH WEIL",
+        "socials": null
+      }
+    ],
     "title": "California’s Forever Fire - ProPublica",
-    "publishedAt": "Mon, 03 Jan 2022 10:34:12 -0500",
+    "published_at": "Mon, 03 Jan 2022 10:34:12 -0500",
     "url": "https://www.propublica.org/article/californias-forever-fire#1228551",
-    "source": {
-      "name": "ProPublica"
-    }
+    "news_site": "ProPublica"
   },
   {
-    "author": "MERIBAH KNIGHT, NASHVILLE PUBLIC RADIO, AND KEN ARMSTRONG AND HANNAH FRESQUES",
+    "authors": [
+      {
+        "name": "MERIBAH KNIGHT",
+        "socials": null
+      },
+      {
+        "name": "NASHVILLE PUBLIC RADIO",
+        "socials": null
+      },
+      {
+        "name": "KEN ARMSTRONG",
+        "socials": null
+      },
+      {
+        "name": "HANNAH FRESQUES",
+        "socials": null
+      }
+    ],
     "title": "New Documents Prove Tennessee County Disproportionately Jails Black Children, and It’s Getting Worse - ProPublica",
-    "publishedAt": "Mon, 03 Jan 2022 05:00:00 -0500",
+    "published_at": "Mon, 03 Jan 2022 05:00:00 -0500",
     "url": "https://www.propublica.org/article/new-documents-prove-tennessee-county-disproportionately-jails-black-children-and-its-getting-worse#1227110",
-    "source": {
-      "name": "ProPublica"
-    }
+    "news_site": "ProPublica"
   },
   {
-    "author": "ELI HAGER",
+    "authors": [
+      {
+        "name": "ELI HAGER",
+        "socials": null
+      }
+    ],
     "title": "The Cruel Failure of Welfare Reform in the Southwest - ProPublica",
-    "publishedAt": "Thu, 30 Dec 2021 06:00:00 -0500",
+    "published_at": "Thu, 30 Dec 2021 06:00:00 -0500",
     "url": "https://www.propublica.org/article/the-cruel-failure-of-welfare-reform-in-the-southwest#1228355",
-    "source": {
-      "name": "ProPublica"
-    }
+    "news_site": "ProPublica"
   },
   {
-    "author": "BIANCA FORTIS",
+    "authors": [
+      {
+        "name": "BIANCA FORTIS",
+        "socials": null
+      }
+    ],
     "title": "After Years of Complaints, Florida Improves Pollution Monitoring Near Burning Sugar Cane Fields - ProPublica",
-    "publishedAt": "Thu, 30 Dec 2021 05:30:00 -0500",
+    "published_at": "Thu, 30 Dec 2021 05:30:00 -0500",
     "url": "https://www.propublica.org/article/after-years-of-complaints-florida-improves-pollution-monitoring-near-burning-sugar-cane-fields#1228333",
-    "source": {
-      "name": "ProPublica"
-    }
+    "news_site": "ProPublica"
   },
   {
-    "author": "NADIA SUSSMAN",
+    "authors": [
+      {
+        "name": "NADIA SUSSMAN",
+        "socials": null
+      }
+    ],
     "title": "Burning Sugar Cane Pollutes Communities of Color in Florida. Brazil Shows There’s Another Way. - ProPublica",
-    "publishedAt": "Thu, 30 Dec 2021 05:00:00 -0500",
+    "published_at": "Thu, 30 Dec 2021 05:00:00 -0500",
     "url": "https://www.propublica.org/article/burning-sugar-cane-pollutes-communities-of-color-in-florida-brazil-shows-theres-another-way#1226970",
-    "source": {
-      "name": "ProPublica"
-    }
+    "news_site": "ProPublica"
   },
   {
-    "author": "MICHAEL GRABELL AND BERNICE YEUNG",
+    "authors": [
+      {
+        "name": "MICHAEL GRABELL",
+        "socials": null
+      },
+      {
+        "name": "BERNICE YEUNG",
+        "socials": null
+      }
+    ],
     "title": "When Dangerous Strains of Salmonella Hit, the Turkey Industry Responded Forcefully. The Chicken Industry? Not So Much. - ProPublica",
-    "publishedAt": "Wed, 29 Dec 2021 12:00:00 -0500",
+    "published_at": "Wed, 29 Dec 2021 12:00:00 -0500",
     "url": "https://www.propublica.org/article/when-dangerous-strains-of-salmonella-hit-the-turkey-industry-responded-forcefully-the-chicken-industry-not-so-much#1226797",
-    "source": {
-      "name": "ProPublica"
-    }
+    "news_site": "ProPublica"
   },
   {
-    "author": "CAROL MARBIN MILLER AND DANIEL CHANG, MIAMI HERALD",
+    "authors": [
+      {
+        "name": "CAROL MARBIN MILLER",
+        "socials": null
+      },
+      {
+        "name": "DANIEL CHANG",
+        "socials": null
+      },
+      {
+        "name": "MIAMI HERALD",
+        "socials": null
+      }
+    ],
     "title": "Accused of Refusing Aid to Disabled Kids, a State Agency Responded — by Hiring a PR Firm - ProPublica",
-    "publishedAt": "Wed, 29 Dec 2021 07:00:00 -0500",
+    "published_at": "Wed, 29 Dec 2021 07:00:00 -0500",
     "url": "https://www.propublica.org/article/accused-of-refusing-aid-to-disabled-kids-a-state-agency-responded-by-hiring-a-pr-firm#1226758",
-    "source": {
-      "name": "ProPublica"
-    }
+    "news_site": "ProPublica"
   },
   {
-    "author": "HANNAH DREYFUS",
+    "authors": [
+      {
+        "name": "HANNAH DREYFUS",
+        "socials": null
+      }
+    ],
     "title": "States Are Hoarding $5.2 Billion in Welfare Funds Even as the Need for Aid Grows - ProPublica",
-    "publishedAt": "Wed, 29 Dec 2021 06:00:00 -0500",
+    "published_at": "Wed, 29 Dec 2021 06:00:00 -0500",
     "url": "https://www.propublica.org/article/states-are-hoarding-52-billion-in-welfare-funds-even-as-the-need-for-aid-grows#1225064",
-    "source": {
-      "name": "ProPublica"
-    }
+    "news_site": "ProPublica"
   },
   {
-    "author": "ANDREA SUOZZO, MARYAM JAMEEL, MICHAEL GRABELL, BERNICE YEUNG",
+    "authors": [
+      {
+        "name": "ANDREA SUOZZO",
+        "socials": null
+      },
+      {
+        "name": "MARYAM JAMEEL",
+        "socials": null
+      },
+      {
+        "name": "MICHAEL GRABELL",
+        "socials": null
+      },
+      {
+        "name": "BERNICE YEUNG",
+        "socials": null
+      }
+    ],
     "title": "Your Free-Range Organic Chicken May Have Been Processed at a Large Industrial Poultry Plant - ProPublica",
-    "publishedAt": "Wed, 29 Dec 2021 05:00:00 -0500",
+    "published_at": "Wed, 29 Dec 2021 05:00:00 -0500",
     "url": "https://www.propublica.org/article/your-free-range-organic-chicken-may-have-been-processed-at-a-large-industrial-poultry-plant#1224734",
-    "source": {
-      "name": "ProPublica"
-    }
+    "news_site": "ProPublica"
   },
   {
-    "author": "DUAA ELDEIB",
+    "authors": [
+      {
+        "name": "DUAA ELDEIB",
+        "socials": null
+      }
+    ],
     "title": "They Were the Pandemic’s Perfect Victims - ProPublica",
-    "publishedAt": "Tue, 28 Dec 2021 06:00:00 -0500",
+    "published_at": "Tue, 28 Dec 2021 06:00:00 -0500",
     "url": "https://www.propublica.org/article/they-were-the-pandemics-perfect-victims#1216777",
-    "source": {
-      "name": "ProPublica"
-    }
+    "news_site": "ProPublica"
   }
 ]
