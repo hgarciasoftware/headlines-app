@@ -32,8 +32,8 @@ a {
 
 .parameter-select-group {
   display: grid;
-  grid: 1fr 1fr / minmax(0, 1fr) auto minmax(0, 1fr);
-  max-width: inherit;
+  grid: 1fr 1fr / minmax(0, 1fr) auto;
+  max-width: 20rem;
   padding: 0 0.75rem 0.75rem;
   width: inherit;
   border-radius: 0.5rem 0.5rem 0 0;
@@ -89,6 +89,8 @@ a {
 .fixed-bottom {
   position: fixed;
   bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 9999;
 }
 
