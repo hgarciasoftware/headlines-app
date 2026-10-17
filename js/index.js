@@ -51,7 +51,12 @@ export async function setup(endpoint) {
   }
 
   async function appendResults() {
-    const response = await fetch (spaceflightAPI);
+    const response = await fetch(spaceflightAPI);
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status} fetching ${response.url}`)
+    }
+
     const data = await response.json();
 
     spaceflightAPI = data.next;
@@ -63,7 +68,17 @@ export async function setup(endpoint) {
     }
   }
 
-  await appendResults();
-  button.classList.remove('invisible');
-  button.addEventListener('click', appendResults);
+  try {
+    await appendResults();
+
+    button.classList.remove('invisible');
+    button.addEventListener('click', appendResults);
+  } catch (e) {
+    const textContent = e instanceof TypeError
+      ? `error in fetch: ${e}`
+      : e.message;
+
+    headlines.textContent = textContent;
+    headlines.style.color = 'darkred';
+  }
 }
