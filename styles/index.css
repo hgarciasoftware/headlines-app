@@ -116,6 +116,12 @@ img {
   width: 100%;
 }
 
+.giscus {
+  box-sizing: border-box;
+  margin-top: 3rem;
+  padding: 0 1.5rem;
+}
+
 .container {
   max-width: 40em;
 }
