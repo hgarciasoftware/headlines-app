@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>headlines | Spaceflight Reports</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Get reports from various space stations and other missions. Powered by the Spaceflight News API.">
+    <link href="./styles/index.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container top">
+      <header>
+        <nav aria-label="Main navigation">
+          <a class="logo" href="./" aria-label="Home">h</a>
+          <a href="./about.html">about</a>
+          <a href="./feedback.html">feedback</a>
+          <a href="https://github.com/hgarciasoftware/headlines-app">see code</a>
+        </nav>
+      </header>
+      <main>
+        <!-- <section class="page-description">
+          <p>The home page provides a stream of headlines from numerous space-related news articles, blog posts, and reports from space stations and other missions.</p>
+          <p>To fetch new headlines, choose an endpoint and then press the refresh button below.</p>
+          <p>The footer automatically disappears when scrolling down and reappears when scrolling up.</p>
+        </section> -->
+        <h1>Space&shy;flight News Articles</h1>
+        <section id="headlines" class="content"></section>
+        <button class="invisible">view more</button>
+      </main>
+    </div>
+    <footer class="container fixed-bottom">
+      <nav aria-label="News categories">
+        <a href="./">news</a>
+        <a href="./blogs.html">blogs</a>
+        <a href="./reports.html">reports</a>
+      </nav>
+    </footer>
+    <script type="module">
+      import { setup } from './js/index.js';
+
+      setup('reports');
+    </script>
+  </body>
+</html>
